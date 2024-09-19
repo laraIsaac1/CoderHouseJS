@@ -87,9 +87,11 @@ function agregarIngrediente(ingrediente,lista, mensaje)
         switch(elegirSabor())
         {
             case 1: menuDulce()
+            console.log(" El usuario eligió menu dulce")
             break;
 
             case 2: menuSalado()
+            console.log(" El usuario eligió menu salado")
             break;
 
             default:
